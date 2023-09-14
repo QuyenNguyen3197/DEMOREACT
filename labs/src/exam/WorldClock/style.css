@@ -1,0 +1,8 @@
+.World-Clock > div {
+    width: 200px;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F3F3F3;
+    display: flex;
+}

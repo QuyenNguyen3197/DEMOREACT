@@ -5,12 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Clock from './exam/Clock';
 import Sum from './exam/Sum';
+import WorldClock from './exam/WorldClock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-   <Clock/>
-   <Sum/>
+    <React.StrictMode>
+      <Clock/>
+      <Sum/>
+      <WorldClock/>
+    </React.StrictMode> 
   </div>
 );
 

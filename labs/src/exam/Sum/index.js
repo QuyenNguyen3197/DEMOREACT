@@ -2,18 +2,29 @@ import './style.css';
 import {useState} from "react";
 
 function Sum(){
-    const [soA, setSoA] = useStage(0)
+    const [soA, setSoA] = useState(0)
+    const [soB, setSoB] = useState(0)
+    const [total, setTotal] = useState(0)
 
-    function handleChange(e){
+    function handleAChange(e){
         setSoA(e.target.value)
     }
-    
+
+    function handleBChange(e){
+        setSoB(e.target.value)
+    }
+
+    function Total(e){
+        setTotal(Number(soA) + Number(soB))
+    }
+
     return(
         <div>
             <form>
-                <input type='number' id='num1'></input>
-                <input type='number' id='num2'></input>
-                <button type='button' id='sum' onclick='TinhTong()'>Tinh Tong</button>
+                <input type='number' onChange={handleAChange}/>
+                <input type='number' onChange={handleBChange}/>
+                <button onClick={Total}>Tinh Tong</button>
+                <p>{soA} + {soB} = {total}</p>
             </form>
         </div>
     )
