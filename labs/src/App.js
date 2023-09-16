@@ -8,9 +8,10 @@ import WorldClock from './exam/WorldClock';
 function App() {
   return (
     <div className="App">
-      <div>Clock()</div>
-      <div>Sum()</div>
+      {/* <div>Clock()</div>
+      <div>Sum()</div> */}
       <WorldClock tenThanhPho = {'Ha Noi'}  muiGio = {7}/>
+      <WorldClock tenThanhPho = {'Hong Kong'}  muiGio = {8}/>
     </div>
   );
 }

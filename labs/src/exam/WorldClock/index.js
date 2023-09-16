@@ -1,5 +1,4 @@
 import './style.css';
-import {useState} from "react";
 
 function WorldClock({tenThanhPho, muiGio}){
   function convertTime(offset) {
@@ -22,18 +21,12 @@ function WorldClock({tenThanhPho, muiGio}){
       return cityTime.toLocaleString()
   }
 
-
-
-
     return(
-    <div className = 'World-Clock'>
-        <div>
+    <div className = 'world-clock'>
             <div className = 'city-name'>{tenThanhPho}</div>
             <div className = 'city-time'>{convertTime(muiGio)}</div>
-        </div>
-        
     </div>
     )
 }
 
-export default WorldClock;
+export default WorldClock
