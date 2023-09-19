@@ -30,4 +30,4 @@ function WorldClock({tenThanhPho, muiGio}){
     )
 }
 
-export default WorldClock
+export default WorldClock;

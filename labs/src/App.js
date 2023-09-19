@@ -5,8 +5,8 @@ import  './exam/Clock/style.css'
 import Sum from './exam/Sum';
 import WorldClock from './exam/WorldClock';
 
-import ContinuousSlider from './exam/slider/index';
-
+import ContinuousSlider from './exam/Slider';
+import CurrentConvert from './exam/CurrencyConverter';
 
 
 
@@ -51,7 +51,10 @@ function App() {
       
       {/* <WorldClock tenThanhPho = {'Ha Noi'}  muiGio = {7}/>
       <WorldClock tenThanhPho = {'Hong Kong'}  muiGio = {8}/> */}
-       <ContinuousSlider/>
+       {/* <ContinuousSlider/> */}
+       <br/>
+       <CurrentConvert/>
+
     </div>
    
   );
