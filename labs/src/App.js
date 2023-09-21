@@ -7,6 +7,7 @@ import WorldClock from './exam/WorldClock';
 
 import ContinuousSlider from './exam/Slider';
 import CurrentConvert from './exam/CurrencyConverter';
+import SimpleRandom from './exam/Simple-Random';
 
 
 
@@ -53,7 +54,8 @@ function App() {
       <WorldClock tenThanhPho = {'Hong Kong'}  muiGio = {8}/> */}
        {/* <ContinuousSlider/> */}
        <br/>
-       <CurrentConvert/>
+       {/* <CurrentConvert/> */}
+       <SimpleRandom/>
 
     </div>
    

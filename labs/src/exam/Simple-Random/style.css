@@ -1,0 +1,29 @@
+#wrapper-first-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+
+#wrapper-min-max{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#random-button{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+#random-result{
+    height: 100%;
+    margin: auto;
+    font-size: 3em;
+}
