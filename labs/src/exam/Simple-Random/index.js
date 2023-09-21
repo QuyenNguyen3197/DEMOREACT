@@ -10,12 +10,10 @@ function SimpleRandom(){
     function handleMinChange (event){
         const value = event.target.value
         setMin(Number(value))
-
         };
     
-    const handleMaxChange = (event) => {
-        const value = event.target.value
-        setMax(Number(value))
+    const handleMaxChange = (event) => { 
+        setMax(Number(event.target.value))
     
         };
 
